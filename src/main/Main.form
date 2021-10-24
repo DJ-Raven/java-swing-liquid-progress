@@ -50,17 +50,21 @@
   <SubComponents>
     <Component class="swing.LiquidProgress" name="liquidProgress">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="db" red="99" type="rgb"/>
+        </Property>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="2b" green="2b" red="e9" type="rgb"/>
+          <Color blue="e9" green="a1" red="2a" type="rgb"/>
         </Property>
         <Property name="value" type="int" value="50"/>
         <Property name="animateColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="7d" green="7d" red="ff" type="rgb"/>
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
         <Property name="borderColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="5d" green="42" red="aa" type="rgb"/>
+          <Color blue="e9" green="a1" red="2a" type="rgb"/>
         </Property>
-        <Property name="borderSize" type="int" value="10"/>
+        <Property name="borderSize" type="int" value="8"/>
+        <Property name="spaceSize" type="int" value="10"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JSlider" name="jSlider1">

@@ -7,10 +7,6 @@ import javax.swing.JProgressBar;
 
 public class LiquidProgress extends JProgressBar {
 
-    public LiquidProgressUI getUI() {
-        return UI;
-    }
-
     public int getBorderSize() {
         return borderSize;
     }

@@ -5,8 +5,6 @@
  */
 package main;
 
-import java.awt.Color;
-
 /**
  *
  * @author RAVEN
@@ -18,7 +16,7 @@ public class Main extends javax.swing.JFrame {
      */
     public Main() {
         initComponents();
-        getContentPane().setBackground(new Color(245, 245, 245));
+      //  getContentPane().setBackground(new Color(245, 245, 245));
     }
 
     /**
@@ -35,11 +33,13 @@ public class Main extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        liquidProgress.setForeground(new java.awt.Color(233, 43, 43));
+        liquidProgress.setBackground(new java.awt.Color(153, 219, 255));
+        liquidProgress.setForeground(new java.awt.Color(42, 161, 233));
         liquidProgress.setValue(50);
-        liquidProgress.setAnimateColor(new java.awt.Color(255, 125, 125));
-        liquidProgress.setBorderColor(new java.awt.Color(170, 66, 93));
-        liquidProgress.setBorderSize(10);
+        liquidProgress.setAnimateColor(new java.awt.Color(255, 255, 255));
+        liquidProgress.setBorderColor(new java.awt.Color(42, 161, 233));
+        liquidProgress.setBorderSize(8);
+        liquidProgress.setSpaceSize(10);
 
         jSlider1.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
